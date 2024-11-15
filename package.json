@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "build": "npm install --legacy-peer-deps && npm run build"
+  "preinstall": "npm install --legacy-peer-deps || true",
   "dev": "vite",
   "preview": "vite preview"
 },
